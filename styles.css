@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+  }
+
+html{
+    scroll-behavior: smooth;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    margin:0;
+}
+
+#intro{
+    height: 100%;
+    background-color: #cd5d7d;
+}
+
+
+#timeline{
+    height: auto;
+    background-color:  #ffd56b;
+    overflow: hidden;
+    display: block;
+}
+
+#love{
+    height: 100%;
+    background-color: #23689b;
+}
+
+#reasons{
+    height: 100%;
+    background-color: #ffabe1;
+}
+
+
+.item {
+    margin: 50px auto;
+    text-align: center;
+    color: white;
+    font-size: 1em;
+  }
+
+  .card{
+      background-color: #726a95;
+      color: white;
+  }
+
+.card-subtitle{
+    color: white !important;
+}
