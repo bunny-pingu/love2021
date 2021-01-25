@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Bunny - Pingu</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
@@ -24,6 +24,20 @@
     </section>
     <section id="love">
         <div class="container-fluid h-100 d-flex justify-content-center align-items-center text-center">
+            <div id="container">
+                <div id="initLoading"> 
+                    <h3>Love is loading.. Please wait..</h1>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0px" y="0px" viewBox="0 0 100 100">
+                    <path fill-opacity="0" stroke-width="1" stroke="#bbb"
+                        d="M81.495,13.923c-11.368-5.261-26.234-0.311-31.489,11.032C44.74,13.612,29.879,8.657,18.511,13.923  C6.402,19.539,0.613,33.883,10.175,50.804c6.792,12.04,18.826,21.111,39.831,37.379c20.993-16.268,33.033-25.344,39.819-37.379  C99.387,33.883,93.598,19.539,81.495,13.923z" />
+                    <path id="heart-path" fill-opacity="0" stroke-width="3" stroke="#ED6A5A"
+                        d="M81.495,13.923c-11.368-5.261-26.234-0.311-31.489,11.032C44.74,13.612,29.879,8.657,18.511,13.923  C6.402,19.539,0.613,33.883,10.175,50.804c6.792,12.04,18.826,21.111,39.831,37.379c20.993-16.268,33.033-25.344,39.819-37.379  C99.387,33.883,93.598,19.539,81.495,13.923z" />
+                </svg>
+                <div id="afterLoading" style="visibility: hidden;"> 
+                    <h3>Opps Love has overflown!</h1>
+                </div>
+            </div>
         </div>
     </section>
     <section id="timeline">
@@ -129,17 +143,54 @@
         </div>
     </section>
     <section id="reasons">
-        <div class="container-fluid h-100 d-flex justify-content-center align-items-center text-center">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h2>Why?</h2>
-                </div>
+        <div class="container">
+            <div class="d-flex justify-content-center align-items-center text-center">
+                <h2>Why?</h2>
             </div>
+
+            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+
+              <p>
+                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  Link with href
+                </a>
+              </p>
+              <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                </div>
+              </div>
+
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active text-center">
+                    <h1>I Love You</h1>
+                  </div>
+                  <div class="carousel-item text-center">
+                    <h1>You are my everything</h1>
+                  </div>
+                  <div class="carousel-item text-center">
+                    <h1>You're my soulmate</h1>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </a>
+              </div>
         </div>
     </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
-    </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <script src="script.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
@@ -148,7 +199,20 @@
         });
     </script>
     <script src="https://cdn.jsdelivr.net/npm/shufflejs/dist/shuffle.min.js"></script>
+    <script src="node_modules/progressbar.js/dist/progressbar.js"></script>
+    <script>
+        var bar = new ProgressBar.Path('#heart-path', {
+  easing: 'bounce',
+  duration: 5000
+});
 
+bar.set(0);
+bar.animate(1.0,{},function(){
+    document.getElementById('initLoading').style.display='none';
+document.getElementById('afterLoading').style.visibility='visible';
+});
+
+    </script>
 </body>
 
 </html>
