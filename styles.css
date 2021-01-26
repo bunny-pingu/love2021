@@ -34,6 +34,11 @@ body{
 
 #reasons{
     height: 100%;
+    background-color: #d9dab0;
+}
+
+#why{
+    height: 100%;
     background-color: #ffabe1;
 }
 
@@ -62,6 +67,15 @@ body{
 .hearts{
     margin: 20px;
     width: 200px;
+}
+
+.why-title{
+    margin-bottom: 50px;
+    font-size: 10em;
+}
+
+.why-caption{
+    margin-bottom: 100px;
 }
 
   
