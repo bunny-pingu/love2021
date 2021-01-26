@@ -57,7 +57,11 @@ body{
 #container {
     margin: 20px;
     width: 200px;
-    height: 200px;
-  }
+}
+
+.hearts{
+    margin: 20px;
+    width: 200px;
+}
 
   
