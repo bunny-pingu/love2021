@@ -1,49 +1,57 @@
 * {
     box-sizing: border-box;
-  }
+}
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-html,body{
+html,
+body {
     height: 100%;
 }
 
-body{
-    margin:0;
+body {
+    margin: 0;
 }
 
-#intro{
+#intro {
     height: 100%;
     background-color: #cd5d7d;
 }
 
 
-#timeline{
+#timeline {
     height: auto;
-    background-color:  #ffd56b;
+    background-color: #ffd56b;
     overflow: hidden;
     display: block;
 }
 
-#love{
+#love {
     height: auto;
     background-color: #23689b;
     overflow: hidden;
     display: block;
 }
 
-#reasons{
+#reasons {
     height: auto;
-    background-color: #d9dab0;
+    background-color: #d3e0ea;
     overflow: hidden;
     display: block;
 }
 
-#why{
+#why {
     height: 100%;
     background-color: #ffabe1;
+}
+
+#memories {
+    height: auto;
+    background-color: #eaac7f;
+    overflow: hidden;
+    display: block;
 }
 
 
@@ -52,14 +60,14 @@ body{
     text-align: center;
     color: white;
     font-size: 1em;
-  }
+}
 
-  .card{
-      background-color: #726a95;
-      color: white;
-  }
+.myCard {
+    background-color: #726a95;
+    color: white;
+}
 
-.card-subtitle{
+.myCard-subtitle {
     color: white !important;
 }
 
@@ -67,15 +75,38 @@ body{
     width: 200px;
 }
 
-.hearts{
+.hearts {
     width: 200px;
 }
 
-.why-title{
+.why-title {
     margin-bottom: 50px;
     font-size: 10em;
 }
 
-.why-caption{
+.why-caption {
     margin-bottom: 100px;
+}
+
+img {
+    height: 500px;
+}
+
+.figure-caption {
+    font-size: 1em;
+    color: black;
+}
+
+p {
+    font-style: italic;
+}
+
+.card-reason{
+    background-color: #ff884b;
+    color: black;
+}
+
+.card-reason-sub{
+  color: black !important;
+  font-weight: bold;
 }
