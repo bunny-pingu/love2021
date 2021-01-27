@@ -28,8 +28,10 @@ body{
 }
 
 #love{
-    height: 100%;
+    height: auto;
     background-color: #23689b;
+    overflow: hidden;
+    display: block;
 }
 
 #reasons{
@@ -62,12 +64,10 @@ body{
 }
 
 #container {
-    margin: 20px;
     width: 200px;
 }
 
 .hearts{
-    margin: 20px;
     width: 200px;
 }
 
