@@ -80,4 +80,13 @@ body{
     margin-bottom: 100px;
 }
 
-  
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #container {
+        width: auto;
+    }
+    
+    .hearts{
+        width: auto;
+    }
+  }
