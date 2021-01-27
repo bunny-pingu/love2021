@@ -33,8 +33,10 @@ body{
 }
 
 #reasons{
-    height: 100%;
+    height: auto;
     background-color: #d9dab0;
+    overflow: hidden;
+    display: block;
 }
 
 #why{
