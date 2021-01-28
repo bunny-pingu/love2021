@@ -18,6 +18,8 @@ body {
 #intro {
     height: 100%;
     background-color: #cd5d7d;
+    font-family: 'Shadows Into Light', serif;
+    font-size: 2em;
 }
 
 
@@ -33,6 +35,8 @@ body {
     background-color: #23689b;
     overflow: hidden;
     display: block;
+    font-family: 'Yusei Magic', serif;
+    font-size: 2em;
 }
 
 #reasons {
@@ -40,11 +44,13 @@ body {
     background-color: #d3e0ea;
     overflow: hidden;
     display: block;
+    font-family: 'Yusei Magic', serif;
 }
 
 #why {
     height: 100%;
     background-color: #ffabe1;
+    font-family: 'Yusei Magic', serif;
 }
 
 #memories {
@@ -52,6 +58,7 @@ body {
     background-color: #eaac7f;
     overflow: hidden;
     display: block;
+    font-family: 'Yusei Magic', serif;
 }
 
 
