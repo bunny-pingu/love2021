@@ -32,7 +32,7 @@ body {
 
 #love {
     height: auto;
-    background-color: #23689b;
+    background-color: #1687a7;
     overflow: hidden;
     display: block;
     font-family: 'Yusei Magic', serif;
@@ -58,6 +58,13 @@ body {
     background-color: #eaac7f;
     overflow: hidden;
     display: block;
+    font-family: 'Yusei Magic', serif;
+}
+
+#bye{
+    height: 100%;
+    background-color: #d8c292;
+    font-size: 1em;
     font-family: 'Yusei Magic', serif;
 }
 

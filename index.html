@@ -38,7 +38,7 @@
   <section id="love">
     <div class="jumbotron h-100 d-flex justify-content-center align-items-center text-center">
       <div class="container">
-        <h2 class="d-flex justify-content-center align-items-center text-center">Hold on wifey!! Love is loading...</h2>
+        <h2 class="d-flex justify-content-center align-items-center text-center" style="padding-top: 50px; padding-bottom: 50px;">Hold on wifey!! Love is loading...</h2>
         <div class="row">
           <div class="col d-flex justify-content-center align-items-center text-center">
             <div id="container" class="hearts">
@@ -109,6 +109,7 @@
     </div>
   </section>
   <section id="timeline">
+    <h1 class="d-flex justify-content-center align-items-center text-center" style="padding-top: 50px;">Our Path</h1>
     <div class="container">
       <div class="item d-flex justify-content-center" data-aos="flip-left">
         <div class="card myCard" style="width: 18rem;">
@@ -206,7 +207,7 @@
   <section id="memories">
     <div class="jumbotron h-100 d-flex justify-content-center align-items-center text-center">
       <div class="container">
-        <h1>Some sweet memories</h1>
+        <h1 class="d-flex justify-content-center align-items-center text-center" style="padding-top: 50px; padding-bottom: 50px;">Some Sweet Memories</h1>
         <figure class="figure">
           <img src="Images/first-conversation.jpg" class="figure-img rounded" alt="First conversation">
           <figcaption class="figure-caption">
@@ -280,6 +281,7 @@
     </div>
   </section>
   <section id="reasons">
+    <h1 class="d-flex justify-content-center align-items-center text-center" style="padding-top: 50px;">Still not convinced? Choose one from below.</h1>
     <div class="jumbotron d-flex justify-content-center align-items-center text-center" style="padding-top: 50px;">
       <div class="container">
         <div class="btn-group btn-group-lg" role="group">
@@ -1253,11 +1255,22 @@
       </div>
     </div>
   </section>
+  <section id="bye">
+    <div class="jumbotron h-100 d-flex justify-content-center align-items-center text-center">
+      <div class="container">
+        <h1 class="why-title">Happy Valentine's Day Baby</h1>
+        <h3 class="why-caption" style="font-family: 'Shadows Into Light', serif;">I love you - Always & Forever</h3>
+        <h3 class="why-caption" style="font-family: 'Shadows Into Light', serif;"><p>
+          I know things haven't been the best and I'm not the best but one thing is certain. It's always going to be you. You! You! You! Nobody else! Just you and me!
+        </p></h3>
+      </div>
+    </div>
+  </section>
 
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init({
-      duration: 1200
+      duration: 1500
     });
   </script>
   <script src="progressbar.js"></script>
@@ -1267,7 +1280,7 @@
       easing: 'bounce',
       duration: 15000
     });
-    bar0.set(0);
+    bar0.set(10);
     bar0.animate(1.0, {}, function () {
 
       x[1].style.visibility = 'visible';
@@ -1276,7 +1289,7 @@
         duration: 5000
       });
 
-      bar1.set(0);
+      bar1.set(5);
       bar1.animate(1.0, {}, function () {
 
         x[2].style.visibility = 'visible';
@@ -1285,7 +1298,7 @@
           duration: 3000
         });
 
-        bar2.set(0);
+        bar2.set(8);
         bar2.animate(1.0, {}, function () {
           x[3].style.visibility = 'visible';
           var bar3 = new ProgressBar.Path('#heart-path3', {
@@ -1293,7 +1306,7 @@
             duration: 4500
           });
 
-          bar3.set(0);
+          bar3.set(2);
           bar3.animate(1.0, {}, function () {
             x[4].style.visibility = 'visible';
             var bar4 = new ProgressBar.Path('#heart-path4', {
@@ -1301,7 +1314,7 @@
               duration: 3000
             });
 
-            bar4.set(0);
+            bar4.set(4);
             bar4.animate(1.0, {}, function () {
               x[5].style.visibility = 'visible';
               var bar5 = new ProgressBar.Path('#heart-path5', {
@@ -1309,7 +1322,7 @@
                 duration: 8000
               });
 
-              bar5.set(0);
+              bar5.set(10);
               bar5.animate(1.0, {}, function () {
                 document.getElementById('end-text').style.visibility = 'visible';
               });
