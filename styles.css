@@ -62,9 +62,11 @@ body {
 }
 
 #bye{
-    height: 100%;
+    height: auto;
     background-color: #d8c292;
     font-size: 1em;
+    overflow: hidden;
+    display: block;
     font-family: 'Yusei Magic', serif;
 }
 
